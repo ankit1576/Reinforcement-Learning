@@ -63,9 +63,6 @@ Q-learning is often used for environments where the full model is unknown or com
 ## steps in Q learning
 ![image](https://github.com/user-attachments/assets/f047fd48-5523-47d2-929b-951c504ae741)
 
-Here's an explanation for the code that you can add to your `README.md` file:
-
----
 
 ## Reinforcement Learning Route Optimization visulization
 
@@ -103,8 +100,12 @@ Here's an explanation for the code that you can add to your `README.md` file:
 
 6. **Displaying the Best Route**:
    - Once training completes, the car moves along the optimal route, visually demonstrating the learned path to the hospital.
-  
 
+
+https://github.com/user-attachments/assets/a2aa6c1a-9ef4-4a37-b8a2-00a932ae0268
+
+
+  
 # Reinforcement Learning Route Optimization in 15km Map radius
 Start position: luchnow charbagh metro station
 End position:Icon hospital 
@@ -135,7 +136,6 @@ Now we are going to use Q-learning, a reinforcement learning algorithm, to help 
    - The `folium` library is used to create an interactive map.
    - All paths are displayed, with the optimal route highlighted.
 
----
 
 ## Features
 
@@ -143,7 +143,6 @@ Now we are going to use Q-learning, a reinforcement learning algorithm, to help 
 - **Reinforcement Learning-Based Optimization**: The Q-learning algorithm identifies the optimal path.
 - **Interactive Map**: The final map shows all paths, highlighting the best one in blue, and marking all explored paths in red.
 
----
 
 ## How It Works
 
