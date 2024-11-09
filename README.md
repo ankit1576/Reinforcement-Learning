@@ -1,8 +1,17 @@
 # Reinforcement Learning Route Optimization visulization
 
+Q-learning, a reinforcement learning algorithm, to train an agent (car) to find the optimal route to reach a destination (hospital) on a 2D grid. The agent learns to navigate a set of predefined routes, ultimately learning which route is best based on rewards received during training.
 
- Q-learning, a reinforcement learning algorithm, to train an agent (car) to find the optimal route to reach a destination (hospital) on a 2D grid. The agent learns to navigate a set of predefined routes, ultimately learning which route is best based on rewards received during training.
+#### Project Directory Structure
 
+```plaintext
+reinforcement-learning-route-optimization/
+│
+├── main.py                               # Main script to execute Q-learning and route optimization
+├── Python_map_route_optimization.py      # Additional script for route optimization on a map
+├── README.md                             # Project documentation and usage instructions
+├── optimal_and_explored_paths_map.html   # Output HTML map visualizing optimal and explored paths
+```
 
 ### How It Works
 
@@ -26,7 +35,7 @@
    - During each episode, a random route is selected, and the agent tries to navigate it.
    - At each step, the agent chooses an action based on the epsilon-greedy policy (explore or exploit).
    - Rewards are assigned:
-     - `+10` for moving forward on the optimal route (Route 5).
+     - `+10` for moving forward on the optimal route (Route 5) always Predetermind.
      - `-1` for staying or moving forward on non-optimal routes.
    - Q-values are updated using the Q-learning formula:
      ![image](https://github.com/user-attachments/assets/c4e95470-62c1-409d-b9d1-b3e909fe0bcb)
